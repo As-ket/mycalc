@@ -7,7 +7,6 @@ public class Calc {
         String input = scan.nextLine();
         System.out.println(calc(input));
     }
-
         public static String calc(String input) {
         int c = 0;
         if (input.contains("/")) {
@@ -15,7 +14,7 @@ public class Calc {
             Rim one = Rim.valueOf(in[0]);
             Rim two = Rim.valueOf(in[1]);
             c = get1(one)/get1(two);
-        } else if (input.contains("*")) {
+        } else if (input. contains("*")) {
             String[] in = input.split("[*]");
             Rim one = Rim.valueOf(in[0]);
             Rim two = Rim.valueOf(in[1]);
